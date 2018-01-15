@@ -11,7 +11,8 @@ return array;
 }
 
 function addElementToEndOfArray(array, element) {
-
+var array2 = [array[0], element];
+return array2;
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
